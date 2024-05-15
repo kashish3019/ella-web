@@ -1,0 +1,636 @@
+.Display {
+    display: none;
+}
+
+.Dis-icons {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+.hidden2{
+    display: none;
+}
+
+.Footer2{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:1440px) {
+    .mobile_div{
+        display: none;
+    }
+    .product-box .img-colour {
+        padding: 0px 90px;
+    }
+    .popup {
+        padding: 15px;
+    }
+    .mainmenu .my-label {
+        left: 9%;
+    }
+    .mainmenu .my-label2{
+        left: 30%;
+    }
+    .mainmenu .my-label3 {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .animate p{
+        margin-bottom: 75px;
+        font-size: 16px;
+    }
+    .mobile_div {
+        display: block;
+        height: 100%;
+        width: 400px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 5;
+        overflow-y: scroll;
+        transition: all 1s;
+    }
+    .mobile{
+        display: block;
+    }
+    /* .header  {
+        position: absolute;
+        z-index: 3;
+        top: 129px;
+        left: 0;
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        background-color: gray;
+        transform: translateX(0%);
+        transition: transform 0.3s;
+        visibility: visible;
+    }
+    header .row{
+        align-items: left;
+        flex-direction: column;
+        display: flex;
+        text-align: left;
+    } */
+    /* .header{ 
+        transform: translateX(0);
+        visibility: visible;
+        display: block;
+    }  */
+    .Display {
+        display: block;
+    }
+
+    .header-2 {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+        display: none;
+    }
+    .product-box .img-colour {
+        padding: 0px 45px;
+    }
+    .product-box {
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .collection .collection1 .collection1-text h3 {
+        font-size: 20px;
+    }
+
+    .collection .collection2 .collection2-text h3 {
+        font-size: 20px;
+    }
+
+    .collection1 h3::after {
+        width: 200px;
+        height: 12px;
+        top: 69%;
+    }
+
+    .collection2 h3::after {
+        width: 185px;
+        height: 12px;
+        top: 69%;
+    }
+    .collection2 h4::after {
+        width: 28%;
+    }
+    .collection1 button::after {
+        content: "";
+        position: absolute;
+        width: 192px;
+        height: 60%;
+        border: 1px solid var(--black);
+        z-index: -1;
+        left: 4%;
+        right: 0;
+        margin: auto;
+    }
+
+    .collection2 button::after {
+        content: "";
+        position: absolute;
+        width: 192px;
+        height: 60%;
+        border: 1px solid var(--black);
+        z-index: -1;
+        left: 4%;
+        right: 0;
+        margin: auto;
+    } 
+
+    .Musthave1 h3::after {
+        width: 186px;
+        height: 13px;
+    }
+
+    .Musthave .Musthave-line {
+        margin-bottom: 7px;
+    }
+    .Musthave1 h4::after{
+        width: 48%;
+    }
+
+    .Musthave1 button::after {
+        left: 6%;
+    }
+
+    .Musthave .Musthave1 .Musthave-line2 h3 {
+        font-size: 20px;
+    }
+
+    .Dis-icons {
+        display: block;
+    }
+
+    .Icons {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .gellary {
+        display: none;
+    }
+    .hidden {
+        display: block;
+    }
+    .hidden .w-33{
+        padding: 0px 10px;
+    }
+    .hidden .img-box {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .hidden .img-box img {
+        width: 100%;
+        transition: all 0.5s;
+        height: 100%;
+    }
+
+    .plus i {
+        font-size: 52px;
+        font-weight: 100;
+    }
+    .sec1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .sec1 input{
+        width: 450px;
+        margin-left: 250px;
+    }
+    .footer .sec2 .sec2-2 {
+        padding: 0px 0px;
+        margin-left: 12px;
+        margin-right: 36px;
+        border: none;
+    }
+    .footer .sec2 .sec2-2 p {
+        padding-bottom: 20px;
+    }
+    .footer .sec2 .sec2-2 h2 {
+        padding-bottom: 20px;
+    }
+    .footer .w-25{
+        width: 20%;
+    }
+    .footer .w-13{
+        width: 20%;
+        padding-left: 15px;
+    }
+    .footer .sec2 .sec2-2{
+        margin: 0;
+    }
+    .footer-svg {
+        padding: 0px 278px;
+        padding-bottom: 70px;
+    }
+    
+    .footer .w-13 .paddingb10{
+        padding-bottom: 20px;
+    }
+    .popup {
+        padding: 10px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Padding{
+        padding: 30px 0px;
+    }
+    .mobile_div {
+            display: block;
+            height: 100%;
+            width: 400px;
+            background-color: #ffffff;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            z-index: 5;
+            overflow-y: scroll;
+            transition: all 1s;
+    }
+    .mobile{
+        display: block;
+    }
+    .banner-1 .banner1-text {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .banner-2 .banner2-text {
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translate(50%, -50%);
+    }
+    .banner-1 {
+    
+        background-size: cover;
+        background-position: center;
+    } 
+   .banner-2 {
+     
+        background-size: cover;
+        background-position: center;
+    }
+   
+    .newarrivals {
+        padding-top: 40px;
+    }
+    .slider{
+        padding-bottom: 20px;
+    }
+    .product-box {
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    .swiper-slide {
+        font-size: 16px;
+    }
+
+    .product-box .img-colour {
+        padding: 0px 35px;
+    }
+    .collection .w-50{
+        padding: 0px 5px;
+    }
+    .collection2 h4::after{
+        width: 37%;
+    }
+    .collection1 button::after,.collection2 button::after {
+        width: 198px;
+    }
+    .Musthave1 h4::after {
+        width: 65%;
+    }
+    .Musthave1 .Musthave-line3 button {
+        width: 190px;
+    }
+    .Musthave1 button::after{
+        width: 79%;
+    }
+    .Musthave1 .Musthave-text{
+        top: 45%;
+    }
+    .icons{
+        padding-bottom: 30px;
+    }
+    .gellary {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .gellary{
+        display: none;
+    }
+    .hidden {
+        display: block;
+        padding-left: 16px;
+    }
+
+    .hidden .img-box {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .hidden .img-box img {
+        width: 100%;
+        transition: all 0.5s;
+        height: 100%;
+    }
+    .plus i {
+        font-size: 52px;
+        font-weight: 100;
+    }
+    .sec1{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+        padding-bottom: 50px;
+        padding-left: 15px;
+
+    }
+    .sec1 input{
+        width: 465px;   
+        margin-left: 0;
+    }
+    .footer .w-25{
+        width: 36%;
+    }
+    .footer .w-13{
+        width: 30%;
+        padding-left: 15px;
+    }
+    .footer-svg {
+        padding: 0px 158px;
+        padding-bottom: 50px;
+    }
+    .footer .w-13:last-child{
+        padding-left: 60px;
+    }
+    .footer .sec2 .sec2-2 {
+        padding: 0px 0px;
+        margin-left: 15px;
+        margin-right: 36px;
+    }
+    .popup{
+        width: 65%;
+    }
+    .popup img{
+        width: 220px;
+    }
+    .popup h2 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .popup p{
+        font-size: 12px;
+    }
+    .popup span {
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .popup .btn1, .popup .btn2 {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid gray;
+        background-color: var(--white);
+        font-size: 16px;
+        margin: 2px 0px;
+        color: gray;
+        cursor: pointer;
+    }
+    .popup .btn2{
+        background-color: var(--black);
+        color: var(--white);
+
+    }
+    .popup .btn2:hover {
+        background-color: white;
+        color: black;
+    }
+    .pop-icon {
+        font-size: 20px;
+    }
+    .popup .pop-icon .row {
+        padding: 12px 0px;
+    }
+    .animate p{
+        margin-bottom: 75px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .animate p{
+        margin-bottom: 75px;
+        font-size: 12px;
+
+    }
+    .banner-1 h4::after {
+        left: 22%;
+    }
+    .banner-2 h4::after {
+        left: 21%;
+    }
+    .banner-1 h3::after {
+        left: -56%;
+    }
+    .banner-1 button::after {
+        left: 12px;
+    }
+    .banner-1 .banner-line2 {
+        padding-bottom: 0;
+    }
+    .banner-2 h3::after{
+        left: -55%;
+    }
+    .banner-2 button::after{
+        left: 12px;
+    }
+    .mobile_div {
+        display: block;
+        height: 100%;
+        overflow-y: scroll;
+        width: 400px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 5;
+        transition: all 1s;
+    }
+    .mobile{
+        display: block;
+    }
+    .Display .display {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+  .dis-icon{
+    padding-top: 8px;
+  }
+    .w-50 {
+        width: 100%;
+    }
+
+    .product-box .img-colour {
+        padding: 0px 25px;
+    }
+
+    .Musthave .w-33 {
+        width: 100% ;
+        padding: 5px 0;
+    }
+    .Musthave1 h4::after {
+        width: 40%;
+    }
+    .Musthave1 button::after {
+        width: 44%;
+        height: 54%;
+        left: 3%;
+    }
+    .Musthave1 .Musthave-text {
+        top: 60%;
+    }
+    .img-gell{
+        display: none;
+    }
+    .hidden{
+        display: none;
+    }
+    .hidden2{
+        display: block;
+        padding: 10px;
+    }
+    .hidden2 .w-50{
+        width: 50%;
+        padding: 5px;
+    }
+    .hidden2 .img-box {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .hidden2 .img-box img {
+        width: 100%;
+        transition: all 0.5s;
+        height: 100%;
+    } 
+    .collection .w-50{
+        padding: 10px 0px;
+    }
+    .sec1 input {
+        width: 166px;
+
+    }
+    .footer {
+        display: none;
+    }
+    .Footer2{
+        display: block;
+        background-color: #f9f1e9;
+    }
+    .Footer2 {
+        padding: 60px 15px;
+        background-color: #f9f1e9;
+    }
+    
+    .Footer2 .sec1 input {
+        width: 255px;
+        height: 40px;
+        margin-bottom: 25px;
+        padding-left: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+     .Footer2 .submit {
+        background-color: var(--black);
+        color: var(--white);
+        width: 100px;
+        height: 40px;
+    } 
+    
+    .Footer2 .sec1 h2 {
+        padding-bottom: 25px;
+    }
+    
+    .Footer2 .sec1 p {
+        padding-bottom: 25px;
+    }
+    
+    .Footer2-icon i {
+        font-size: 30px;
+        padding-right: 30px;
+    }
+    
+    .Footer2 .sec2 .sec2-2 {
+        padding-left: 15px;
+    }
+    
+    .Footer2 .sec2 .sec2-2 h2 {
+        padding-bottom: 30px;
+    }
+    
+    .Footer2 .sec2 .sec2-2 p {
+        padding-bottom: 30px;
+    }
+    
+    .Footer2 .copywrite {
+        padding: 30px 0px;
+    }
+    
+    .Footer2-svg {
+        padding: 0px 450px;
+    }
+    
+    .Footer2-svg svg {
+        margin: auto;
+    }
+    .Footer2 .font-16{
+        font-size: 14px;
+    }
+    .footer-svg {
+        background-color: #f9f1e9;
+        padding: 30px 0px;
+    }
+    .searching-slide .main-image-div .image-div {
+        width: 200px;
+        left: 100px;
+        position: absolute;
+    }
+    
+    .searching-slide .main-image-div .image-div img {
+        width: 200px;
+    }
+    .searching-slide .main-image-div:hover .icon-div {
+        margin-right: 105px;
+    }
+    .popup img {
+        width: 249px;
+        height: 210px;
+    }
+}
